@@ -10,7 +10,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/Mrs4s/go-cqhttp/modules/config"
+	"github.com/rhwong/go-cqhttp-dev/modules/config"
 )
 
 // command flags

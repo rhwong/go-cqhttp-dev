@@ -19,17 +19,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/rhwong/MiraiGo/utils"
 	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 	"gopkg.in/yaml.v3"
 
-	"github.com/Mrs4s/go-cqhttp/coolq"
-	"github.com/Mrs4s/go-cqhttp/global"
-	"github.com/Mrs4s/go-cqhttp/modules/api"
-	"github.com/Mrs4s/go-cqhttp/modules/config"
-	"github.com/Mrs4s/go-cqhttp/modules/filter"
-	"github.com/Mrs4s/go-cqhttp/pkg/onebot"
+	"github.com/rhwong/go-cqhttp-dev/coolq"
+	"github.com/rhwong/go-cqhttp-dev/global"
+	"github.com/rhwong/go-cqhttp-dev/modules/api"
+	"github.com/rhwong/go-cqhttp-dev/modules/config"
+	"github.com/rhwong/go-cqhttp-dev/modules/filter"
+	"github.com/rhwong/go-cqhttp-dev/pkg/onebot"
 )
 
 // HTTPServer HTTP通信相关配置

@@ -11,14 +11,14 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/rhwong/MiraiGo/utils"
 	log "github.com/sirupsen/logrus"
 	"gopkg.in/yaml.v3"
 
-	"github.com/Mrs4s/go-cqhttp/coolq"
-	"github.com/Mrs4s/go-cqhttp/global"
-	api2 "github.com/Mrs4s/go-cqhttp/modules/api"
-	"github.com/Mrs4s/go-cqhttp/modules/config"
+	"github.com/rhwong/go-cqhttp-dev/coolq"
+	"github.com/rhwong/go-cqhttp-dev/global"
+	api2 "github.com/rhwong/go-cqhttp-dev/modules/api"
+	"github.com/rhwong/go-cqhttp-dev/modules/config"
 )
 
 type lambdaClient struct {

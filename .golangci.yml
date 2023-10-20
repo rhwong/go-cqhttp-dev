@@ -4,7 +4,7 @@ linters-settings:
     ignoretests: true
 
   goimports:
-    local-prefixes: github.com/Mrs4s/go-cqhttp
+    local-prefixes: github.com/rhwong/go-cqhttp-dev
 
   gocritic:
     disabled-checks:

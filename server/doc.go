@@ -1,7 +1,7 @@
 // Package server 包含HTTP,WebSocket,反向WebSocket请求处理的相关函数与结构体
 package server
 
-import "github.com/Mrs4s/go-cqhttp/modules/servers"
+import "github.com/rhwong/go-cqhttp-dev/modules/servers"
 
 // 注册
 func init() {

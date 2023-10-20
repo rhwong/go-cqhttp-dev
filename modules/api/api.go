@@ -3,9 +3,9 @@
 package api
 
 import (
-	"github.com/Mrs4s/go-cqhttp/coolq"
-	"github.com/Mrs4s/go-cqhttp/global"
-	"github.com/Mrs4s/go-cqhttp/pkg/onebot"
+	"github.com/rhwong/go-cqhttp-dev/coolq"
+	"github.com/rhwong/go-cqhttp-dev/global"
+	"github.com/rhwong/go-cqhttp-dev/pkg/onebot"
 )
 
 func (c *Caller) call(action string, spec *onebot.Spec, p Getter) global.MSG {

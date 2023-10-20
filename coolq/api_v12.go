@@ -5,8 +5,8 @@ import (
 
 	"github.com/tidwall/gjson"
 
-	"github.com/Mrs4s/go-cqhttp/global"
-	"github.com/Mrs4s/go-cqhttp/internal/base"
+	"github.com/rhwong/go-cqhttp-dev/global"
+	"github.com/rhwong/go-cqhttp-dev/internal/base"
 )
 
 // CQGetVersion 获取版本信息 OneBotV12

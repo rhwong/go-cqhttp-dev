@@ -3,7 +3,7 @@ package leveldb
 import (
 	"bytes"
 
-	"github.com/Mrs4s/go-cqhttp/global"
+	"github.com/rhwong/go-cqhttp-dev/global"
 )
 
 type intWriter struct {

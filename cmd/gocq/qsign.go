@@ -16,12 +16,12 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/tidwall/gjson"
 
-	"github.com/Mrs4s/MiraiGo/utils"
+	"github.com/rhwong/MiraiGo/utils"
 
-	"github.com/Mrs4s/go-cqhttp/global"
-	"github.com/Mrs4s/go-cqhttp/internal/base"
-	"github.com/Mrs4s/go-cqhttp/internal/download"
-	"github.com/Mrs4s/go-cqhttp/modules/config"
+	"github.com/rhwong/go-cqhttp-dev/global"
+	"github.com/rhwong/go-cqhttp-dev/internal/base"
+	"github.com/rhwong/go-cqhttp-dev/internal/download"
+	"github.com/rhwong/go-cqhttp-dev/modules/config"
 )
 
 type currentSignServer atomic.Pointer[config.SignServer]

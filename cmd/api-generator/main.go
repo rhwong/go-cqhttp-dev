@@ -60,9 +60,9 @@ func (g *generator) header() {
 
 func (g *generator) genRouter(routers []Router) {
 	g.WriteString("import (\n\n")
-	g.WriteString("\"github.com/Mrs4s/go-cqhttp/coolq\"\n")
-	g.WriteString("\"github.com/Mrs4s/go-cqhttp/global\"\n")
-	g.WriteString("\"github.com/Mrs4s/go-cqhttp/pkg/onebot\"\n")
+	g.WriteString("\"github.com/rhwong/go-cqhttp-dev/coolq\"\n")
+	g.WriteString("\"github.com/rhwong/go-cqhttp-dev/global\"\n")
+	g.WriteString("\"github.com/rhwong/go-cqhttp-dev/pkg/onebot\"\n")
 	g.WriteString(")\n\n")
 	g.WriteString(`func (c *Caller) call(action string, spec *onebot.Spec, p Getter) global.MSG {`)
 	genVer := func(path int) {

@@ -3,7 +3,7 @@ package base
 import "runtime/debug"
 
 // Version go-cqhttp的版本信息，在编译时使用ldflags进行覆盖
-var Version = "unknown"
+var Version = "1.2.1-dev1"
 
 func init() {
 	if Version != "unknown" {

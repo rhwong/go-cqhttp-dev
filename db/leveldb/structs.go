@@ -1,6 +1,6 @@
 package leveldb
 
-import "github.com/Mrs4s/go-cqhttp/db"
+import "github.com/rhwong/go-cqhttp-dev/db"
 
 func (w *writer) writeStoredGroupMessage(x *db.StoredGroupMessage) {
 	if x == nil {

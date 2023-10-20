@@ -8,43 +8,43 @@
 
 # go-cqhttp
 
-_✨ 基于 [Mirai](https://github.com/mamoe/mirai) 以及 [MiraiGo](https://github.com/Mrs4s/MiraiGo) 的 [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) Golang 原生实现 ✨_  
+_✨ 基于 [Mirai](https://github.com/mamoe/mirai) 以及 [MiraiGo](https://github.com/rhwong/MiraiGo) 的 [OneBot](https://github.com/howmanybots/onebot/blob/master/README.md) Golang 原生实现 ✨_  
 
 
 </div>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Mrs4s/go-cqhttp/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Mrs4s/go-cqhttp" alt="license">
+  <a href="https://raw.githubusercontent.com/rhwong/go-cqhttp-dev/master/LICENSE">
+    <img src="https://img.shields.io/github/license/rhwong/go-cqhttp-dev" alt="license">
   </a>
-  <a href="https://github.com/Mrs4s/go-cqhttp/releases">
-    <img src="https://img.shields.io/github/v/release/Mrs4s/go-cqhttp?color=blueviolet&include_prereleases" alt="release">
+  <a href="https://github.com/rhwong/go-cqhttp-dev/releases">
+    <img src="https://img.shields.io/github/v/release/rhwong/go-cqhttp-dev?color=blueviolet&include_prereleases" alt="release">
   </a>
 <a href="https://app.fossa.com/projects/git%2Bgithub.com%2FMrs4s%2Fgo-cqhttp?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FMrs4s%2Fgo-cqhttp.svg?type=shield"/></a>
   <a href="https://github.com/howmanybots/onebot/blob/master/README.md">
     <img src="https://img.shields.io/badge/OneBot-v11-blue?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEUAAAAAAAADAwMHBwceHh4UFBQNDQ0ZGRkoKCgvLy8iIiLWSdWYAAAAAXRSTlMAQObYZgAAAQVJREFUSMftlM0RgjAQhV+0ATYK6i1Xb+iMd0qgBEqgBEuwBOxU2QDKsjvojQPvkJ/ZL5sXkgWrFirK4MibYUdE3OR2nEpuKz1/q8CdNxNQgthZCXYVLjyoDQftaKuniHHWRnPh2GCUetR2/9HsMAXyUT4/3UHwtQT2AggSCGKeSAsFnxBIOuAggdh3AKTL7pDuCyABcMb0aQP7aM4AnAbc/wHwA5D2wDHTTe56gIIOUA/4YYV2e1sg713PXdZJAuncdZMAGkAukU9OAn40O849+0ornPwT93rphWF0mgAbauUrEOthlX8Zu7P5A6kZyKCJy75hhw1Mgr9RAUvX7A3csGqZegEdniCx30c3agAAAABJRU5ErkJggg==" alt="cqhttp">
   </a>
-  <a href="https://github.com/Mrs4s/go-cqhttp/actions">
-    <img src="https://github.com/Mrs4s/go-cqhttp/workflows/CI/badge.svg" alt="action">
+  <a href="https://github.com/rhwong/go-cqhttp-dev/actions">
+    <img src="https://github.com/rhwong/go-cqhttp-dev/workflows/CI/badge.svg" alt="action">
   </a>
-  <a href="https://goreportcard.com/report/github.com/Mrs4s/go-cqhttp">
-  <img src="https://goreportcard.com/badge/github.com/Mrs4s/go-cqhttp" alt="GoReportCard">
+  <a href="https://goreportcard.com/report/github.com/rhwong/go-cqhttp-dev">
+  <img src="https://goreportcard.com/badge/github.com/rhwong/go-cqhttp-dev" alt="GoReportCard">
   </a>
 </p>
 
 <p align="center">
   <a href="https://docs.go-cqhttp.org/">文档</a>
   ·
-  <a href="https://github.com/Mrs4s/go-cqhttp/releases">下载</a>
+  <a href="https://github.com/rhwong/go-cqhttp-dev/releases">下载</a>
   ·
   <a href="https://docs.go-cqhttp.org/guide/quick_start.html">开始使用</a>
   ·
-  <a href="https://github.com/Mrs4s/go-cqhttp/blob/master/CONTRIBUTING.md">参与贡献</a>
+  <a href="https://github.com/rhwong/go-cqhttp-dev/blob/master/CONTRIBUTING.md">参与贡献</a>
 </p>
 
 ## 重要信息
 由于QQ官方针对协议库的围追堵截, 不断更新加密方案, 我们已无力继续维护此项目.
-建议Bot开发者尽快迁移至无头NTQQ项目 -> https://github.com/Mrs4s/go-cqhttp/issues/2471
+建议Bot开发者尽快迁移至无头NTQQ项目 -> https://github.com/rhwong/go-cqhttp-dev/issues/2471
 
 ## 兼容性
 go-cqhttp 兼容 [OneBot-v11](https://github.com/botuniverse/onebot-11) 绝大多数内容，并在其基础上做了一些扩展，详情请看 go-cqhttp 的文档。

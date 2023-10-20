@@ -6,7 +6,7 @@
 
 # 基础教程
 ## 下载
-从[release](https://github.com/Mrs4s/go-cqhttp/releases)界面下载最新版本的go-cqhttp
+从[release](https://github.com/rhwong/go-cqhttp-dev/releases)界面下载最新版本的go-cqhttp
 
 - Windows下32位文件为  `go-cqhttp-v*-windows-386.zip`
 - Windows下64位文件为 `go-cqhttp-v*-windows-amd64.zip`
@@ -33,7 +33,7 @@
 [WARNING]: 尝试加载配置文件 config.hjson 失败: 文件不存在
 [INFO]: 默认配置文件已生成,请编辑 config.hjson 后重启程序.
 ```
-2. 参照[config.md](https://github.com/Mrs4s/go-cqhttp/blob/master/docs/config.md)和你所用到的插件的 `README` 填入参数
+2. 参照[config.md](https://github.com/rhwong/go-cqhttp-dev/blob/master/docs/config.md)和你所用到的插件的 `README` 填入参数
 3. 再次双击`go-cqhttp.exe`
 ```
 [INFO]: 登录成功 欢迎使用: balabala
@@ -85,7 +85,7 @@ enable ws?(Y/n)
 [INFO]: 默认配置文件已生成,请编辑 config.hjson 后重启程序.
 ```
 
-4. 参照[config.md](https://github.com/Mrs4s/go-cqhttp/blob/master/docs/config.md)和你所用到的插件的 `README` 填入参数
+4. 参照[config.md](https://github.com/rhwong/go-cqhttp-dev/blob/master/docs/config.md)和你所用到的插件的 `README` 填入参数
 5. 再次输入 `./go-cqhttp`，`Enter`运行
 ```
 [INFO]: 登录成功 欢迎使用: balabala
@@ -119,7 +119,7 @@ enable ws?(Y/n)
 
 ## 如何自己构建
 
-1. [下载源码](https://github.com/Mrs4s/go-cqhttp/archive/master.zip)并解压 || 使用`git clone https://github.com/Mrs4s/go-cqhttp.git`来拉取
+1. [下载源码](https://github.com/rhwong/go-cqhttp-dev/archive/master.zip)并解压 || 使用`git clone https://github.com/rhwong/go-cqhttp-dev.git`来拉取
 
 2. [下载golang binary release](https://golang.google.cn/dl/)并安装或者[自己构建golang](https://golang.google.cn/doc/install/source)
 
@@ -133,7 +133,7 @@ enable ws?(Y/n)
 
 ### 方法一
 
-从[release](https://github.com/Mrs4s/go-cqhttp/releases)界面下载最新版本的go-cqhttp
+从[release](https://github.com/rhwong/go-cqhttp-dev/releases)界面下载最新版本的go-cqhttp
 并替换之前的版本
 
 ### 方法二

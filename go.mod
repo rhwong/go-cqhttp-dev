@@ -1,11 +1,10 @@
-module github.com/Mrs4s/go-cqhttp
+module github.com/rhwong/go-cqhttp-dev
 
 go 1.20
 
 require (
 	github.com/FloatTech/sqlite v1.6.3
 	github.com/Microsoft/go-winio v0.6.2-0.20230724192519-b29bbd58a65a
-	github.com/Mrs4s/MiraiGo v0.0.0-20230823050531-a8213e127b2b
 	github.com/RomiChan/syncx v0.0.0-20221202055724-5f842c53020e
 	github.com/RomiChan/websocket v1.4.3-0.20220227141055-9b2c6168c9c5
 	github.com/fumiama/go-base16384 v1.7.0
@@ -13,6 +12,7 @@ require (
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/mattn/go-colorable v0.1.13
 	github.com/pkg/errors v0.9.1
+	github.com/rhwong/MiraiGo v0.0.0-20231017025801-79d7c666d2e7
 	github.com/segmentio/asm v1.2.0
 	github.com/sirupsen/logrus v1.9.3
 	github.com/stretchr/testify v1.8.1
@@ -30,16 +30,19 @@ require (
 )
 
 require (
+	github.com/jonboulle/clockwork v0.4.0 // indirect
+	github.com/kr/pretty v0.3.1 // indirect
+)
+
+require (
 	github.com/FloatTech/ttl v0.0.0-20220715042055-15612be72f5b // indirect
 	github.com/RomiChan/protobuf v0.1.1-0.20230204044148-2ed269a2e54d // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fumiama/imgsz v0.0.2 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/uuid v1.3.0 // indirect
-	github.com/jonboulle/clockwork v0.3.0 // indirect
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
-	github.com/kr/pretty v0.3.1 // indirect
 	github.com/lestrrat-go/strftime v1.0.6 // indirect
 	github.com/mattn/go-isatty v0.0.16 // indirect
 	github.com/montanaflynn/stats v0.0.0-20171201202039-1bf9dbcd8cbe // indirect

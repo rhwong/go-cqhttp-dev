@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Mrs4s/go-cqhttp/internal/base"
+	"github.com/rhwong/go-cqhttp-dev/internal/base"
 )
 
 const limit = 4 * 1024

@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Mrs4s/go-cqhttp/global"
+	"github.com/rhwong/go-cqhttp-dev/global"
 
 	log "github.com/sirupsen/logrus"
 )

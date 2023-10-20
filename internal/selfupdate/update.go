@@ -16,9 +16,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/Mrs4s/go-cqhttp/global"
-	"github.com/Mrs4s/go-cqhttp/internal/base"
-	"github.com/Mrs4s/go-cqhttp/internal/download"
+	"github.com/rhwong/go-cqhttp-dev/global"
+	"github.com/rhwong/go-cqhttp-dev/internal/base"
+	"github.com/rhwong/go-cqhttp-dev/internal/download"
 )
 
 func readLine() (str string) {
@@ -29,7 +29,7 @@ func readLine() (str string) {
 }
 
 func lastVersion() (string, error) {
-	r, err := download.Request{URL: "https://api.github.com/repos/Mrs4s/go-cqhttp/releases/latest"}.JSON()
+	r, err := download.Request{URL: "https://api.github.com/repos/rhwong/go-cqhttp-dev/releases/latest"}.JSON()
 	if err != nil {
 		return "", err
 	}
@@ -49,7 +49,7 @@ func CheckUpdate() {
 		return
 	}
 	if global.VersionNameCompare(base.Version, latest) {
-		logrus.Infof("当前有更新的 go-cqhttp 可供更新, 请前往 https://github.com/Mrs4s/go-cqhttp/releases 下载.")
+		logrus.Infof("当前有更新的 go-cqhttp 可供更新, 请前往 https://github.com/rhwong/go-cqhttp-dev/releases 下载.")
 		logrus.Infof("当前版本: %v 最新版本: %v", base.Version, latest)
 		return
 	}
@@ -69,7 +69,7 @@ func binaryName() string {
 }
 
 func checksum(github, version string) []byte {
-	sumURL := fmt.Sprintf("%v/Mrs4s/go-cqhttp/releases/download/%v/go-cqhttp_checksums.txt", github, version)
+	sumURL := fmt.Sprintf("%v/rhwong/go-cqhttp-dev/releases/download/%v/go-cqhttp_checksums.txt", github, version)
 	sum, err := download.Request{URL: sumURL}.Bytes()
 	if err != nil {
 		return nil
@@ -108,7 +108,7 @@ func SelfUpdate(github string) {
 		logrus.Warnf("获取最新版本失败: %v", err)
 		wait()
 	}
-	url := fmt.Sprintf("%v/Mrs4s/go-cqhttp/releases/download/%v/%v", github, latest, binaryName())
+	url := fmt.Sprintf("%v/rhwong/go-cqhttp-dev/releases/download/%v/%v", github, latest, binaryName())
 	if base.Version == latest {
 		logrus.Info("当前版本已经是最新版本!")
 		wait()

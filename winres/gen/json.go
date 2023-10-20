@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Mrs4s/go-cqhttp/internal/base"
+	"github.com/rhwong/go-cqhttp-dev/internal/base"
 )
 
 const js = `{
@@ -58,7 +58,7 @@ const js = `{
           "0409": {
             "Comments": "Golang implementation of cqhttp.",
             "CompanyName": "Mrs4s",
-            "FileDescription": "https://github.com/Mrs4s/go-cqhttp",
+            "FileDescription": "https://github.com/rhwong/go-cqhttp-dev",
             "FileVersion": "%s",
             "InternalName": "",
             "LegalCopyright": "©️ 2020 - %d Mrs4s. All Rights Reserved.",
